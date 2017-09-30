@@ -10,6 +10,7 @@
     document.getElementById('pose-x').innerHTML = 'X: ' + pose[0];
     document.getElementById('pose-y').innerHTML = 'Y: ' + pose[1];
     document.getElementById('pose-z').innerHTML = 'Z: ' + pose[2];
+    document.getElementById('pose-yaw').innerHTML = 'Yaw: ' + pose[3];
   }
 
   function update_velocity(velocity) {
