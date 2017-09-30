@@ -1,4 +1,4 @@
-# dashboard
+# Dashboard
 
 Run `python -m SimpleHTTPServer` to serve file locally
 
