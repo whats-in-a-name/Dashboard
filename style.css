@@ -1,0 +1,74 @@
+body {
+  background: #000;
+  margin: 0;
+  padding: 0;
+  font: 10px sans-serif;
+}
+
+text {
+  fill: #fff;
+}
+
+.axis path,
+.axis line {
+  fill: none;
+  stroke: #333;
+  shape-rendering: crispEdges;
+}
+
+.axis path {
+  stroke: #aaa;
+}
+
+.line {
+  fill: none;
+  stroke: #fff;
+  stroke-width: 2px;
+}
+
+.data {
+  stroke: #fff;
+  stroke-width: 2px;
+}
+
+.brake {
+  stroke: #0ff;
+}
+
+.steer {
+  stroke: #ff0;
+}
+
+#main-container {
+  width: 90%;
+  height: auto;
+}
+
+#carla-view {
+  max-width: 20%;
+  height: auto;
+  margin: 10px;
+  /* flex-flow: row; */
+}
+
+.dashboard {
+  display: flex;
+  /* width: 100%; */
+  width: 400px;
+  /* flex-flow: row wrap; */
+}
+
+#carla-zoomed-view {
+  max-width: 20%;
+  height: auto; 
+  margin: 10px;
+}
+
+.control-panel{
+  flex-flow: row wrap;
+  color: white;
+}
+
+.status {
+  color: white;
+}
